@@ -1,0 +1,17 @@
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Dev_Projects\CarRentalSystem\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\Core.dll
+C:\Dev_Projects\CarRentalSystem\DataAccess\bin\Debug\net6.0\Core.pdb
