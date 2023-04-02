@@ -19,5 +19,8 @@ namespace Business.Constants
         internal static string CarAlreadyExists = "This car already exists.";
         internal static string CarImageLimitExceeded = "A car can only have 5 images.";
         internal static string CarImageNotFound = "This car doesn't have any images.";
+        internal static string UsersListed = "All users have been listed.";
+        internal static string UserDeleted = "User deleted successfully!";
+        internal static string UserUpdated = "User updated successfully";
     }
 }
