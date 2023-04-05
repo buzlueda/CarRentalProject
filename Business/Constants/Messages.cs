@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Entities.Concrete;
 
 namespace Business.Constants
 {
@@ -22,5 +23,12 @@ namespace Business.Constants
         internal static string UsersListed = "All users have been listed.";
         internal static string UserDeleted = "User deleted successfully!";
         internal static string UserUpdated = "User updated successfully";
+        internal static string? AuthorizationDenied = "Authorization denied!";
+        internal static string UserRegistered = "User registered.";
+        internal static string UserAlreadyExists = "User already exists";
+        internal static string UserNotFound = "User not found";
+        internal static string PasswordError = "Wrong password";
+        internal static string SuccessfulLogin = "Logged in successfully";
+        internal static string AccessTokenCreated = "Access token created successfully";
     }
 }

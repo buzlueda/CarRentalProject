@@ -1,6 +1,10 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Business.DependencyResolvers.Autofac;
+using Core.DependencyResolvers;
+using Core.Extensions;
+using Core.Utilities.IoC;
+using Core.Utilities.Security.JWT;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +20,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
+
+builder.Services.AddDependencyResolvers(new ICoreModule[] {
+    new CoreModule()
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
