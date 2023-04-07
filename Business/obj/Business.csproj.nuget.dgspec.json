@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj": {}
+    "C:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj": {}
   },
   "projects": {
-    "c:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj": {
+    "C:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj",
+        "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\edabu\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev_Projects\\CarRentalSystem\\Business\\obj\\",
+        "outputPath": "C:\\Dev_Projects\\CarRentalSystem\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edabu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
               },
-              "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj"
               },
-              "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
+    "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj",
+        "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\edabu\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev_Projects\\CarRentalSystem\\Core\\obj\\",
+        "outputPath": "C:\\Dev_Projects\\CarRentalSystem\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edabu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -155,9 +155,17 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -180,14 +188,14 @@
         }
       }
     },
-    "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj": {
+    "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\edabu\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev_Projects\\CarRentalSystem\\DataAccess\\obj\\",
+        "outputPath": "C:\\Dev_Projects\\CarRentalSystem\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edabu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,11 +210,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
               },
-              "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj"
               }
             }
           }
@@ -246,14 +254,14 @@
         }
       }
     },
-    "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
+    "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\edabu\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev_Projects\\CarRentalSystem\\Entities\\obj\\",
+        "outputPath": "C:\\Dev_Projects\\CarRentalSystem\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edabu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -268,8 +276,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
-                "projectPath": "c:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
+              "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj": {
+                "projectPath": "C:\\Dev_Projects\\CarRentalSystem\\Core\\Core.csproj"
               }
             }
           }

@@ -23,6 +23,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors();
+
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
 builder.Services.AddDependencyResolvers(new ICoreModule[] {
@@ -52,6 +54,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
 app.UseHttpsRedirection();
 
